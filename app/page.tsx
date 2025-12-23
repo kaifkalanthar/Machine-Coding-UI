@@ -4,6 +4,7 @@ export default function Home() {
   return (
     <div className="w-full p-4">
       <Link href={"/toast"}>Toast</Link>
+      <Link href={"/autocomplete"}>Autocomplete</Link>
     </div>
   );
 }
